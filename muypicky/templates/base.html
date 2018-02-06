@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang =en>
+<head>
+</head>
+<body>
+  <h1>Sup Beeyotches</h1>
+  <p>html rendering! {{html_var}} Woooot!</p>
+  <p>{% if html_var%}poop{% endif %}
+  <h1 style=color:#123aaa>{%for some_item in some_list%}
+      {% if some_item|divisibleby:"2"%}
+        Evensies
+      {%endif%}
+      {{some_item}}<br/>
+    {%endfor%}
+    some item is {{some_item}}
+
+  </h1>
+</body>
+</html>
